@@ -1,0 +1,205 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 61375F74
+P 3800 7300
+F 0 "H1" H 3900 7349 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3900 7258 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 3800 7300 50  0001 C CNN
+F 3 "~" H 3800 7300 50  0001 C CNN
+	1    3800 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 613764B6
+P 2700 7300
+F 0 "H2" H 2800 7349 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2800 7258 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 2700 7300 50  0001 C CNN
+F 3 "~" H 2700 7300 50  0001 C CNN
+	1    2700 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 61376DFD
+P 3800 7400
+F 0 "#PWR0101" H 3800 7150 50  0001 C CNN
+F 1 "GND" H 3805 7227 50  0000 C CNN
+F 2 "" H 3800 7400 50  0001 C CNN
+F 3 "" H 3800 7400 50  0001 C CNN
+	1    3800 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 61377554
+P 2700 7400
+F 0 "#PWR0102" H 2700 7150 50  0001 C CNN
+F 1 "GND" H 2705 7227 50  0000 C CNN
+F 2 "" H 2700 7400 50  0001 C CNN
+F 3 "" H 2700 7400 50  0001 C CNN
+	1    2700 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 616BAEE2
+P 5950 7300
+F 0 "H4" H 6050 7349 50  0000 L CNN
+F 1 "MountingHole_Pad" H 6050 7258 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 5950 7300 50  0001 C CNN
+F 3 "~" H 5950 7300 50  0001 C CNN
+	1    5950 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 616BAF6E
+P 4850 7300
+F 0 "H3" H 4950 7349 50  0000 L CNN
+F 1 "MountingHole_Pad" H 4950 7258 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 4850 7300 50  0001 C CNN
+F 3 "~" H 4850 7300 50  0001 C CNN
+	1    4850 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 616BAF78
+P 5950 7400
+F 0 "#PWR0103" H 5950 7150 50  0001 C CNN
+F 1 "GND" H 5955 7227 50  0000 C CNN
+F 2 "" H 5950 7400 50  0001 C CNN
+F 3 "" H 5950 7400 50  0001 C CNN
+	1    5950 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 616BAF82
+P 4850 7400
+F 0 "#PWR0104" H 4850 7150 50  0001 C CNN
+F 1 "GND" H 4855 7227 50  0000 C CNN
+F 2 "" H 4850 7400 50  0001 C CNN
+F 3 "" H 4850 7400 50  0001 C CNN
+	1    4850 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 6170A297
+P 1700 1700
+F 0 "#PWR0105" H 1700 1450 50  0001 C CNN
+F 1 "GND" V 1700 1500 50  0000 C CNN
+F 2 "" H 1700 1700 50  0001 C CNN
+F 3 "" H 1700 1700 50  0001 C CNN
+	1    1700 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0106
+U 1 1 6170AE72
+P 1700 2400
+F 0 "#PWR0106" H 1700 2250 50  0001 C CNN
+F 1 "VCC" V 1700 2600 50  0000 C CNN
+F 2 "" H 1700 2400 50  0001 C CNN
+F 3 "" H 1700 2400 50  0001 C CNN
+	1    1700 2400
+	0    1    1    0   
+$EndComp
+Text GLabel 1200 1800 0    50   Input ~ 0
+SDA
+Text GLabel 1200 1900 0    50   Input ~ 0
+SCK
+$Sheet
+S 8050 3600 1050 950 
+U 61757C97
+F0 "Sheet61757C96" 50
+F1 "mcpoutput.sch" 50
+$EndSheet
+$Sheet
+S 2200 3350 1050 900 
+U 61758241
+F0 "Sheet61758240" 50
+F1 "mcpinput.sch" 50
+$EndSheet
+$Sheet
+S 5100 3600 1300 1100
+U 61761101
+F0 "connectors" 50
+F1 "connectors.sch" 50
+$EndSheet
+$Sheet
+S 4900 1700 1250 1000
+U 61788424
+F0 "power" 50
+F1 "power.sch" 50
+$EndSheet
+Text GLabel 1700 1800 2    50   Input ~ 0
+RESET_1
+Text GLabel 1700 1900 2    50   Input ~ 0
+RESET_2
+Text GLabel 1700 2000 2    50   Input ~ 0
+RESET_3
+Text GLabel 1200 2100 0    50   Input ~ 0
+INTA_1
+Text GLabel 1200 2200 0    50   Input ~ 0
+INTA_2
+Text GLabel 1200 2300 0    50   Input ~ 0
+INTA_3
+Text GLabel 1700 2100 2    50   Input ~ 0
+INTB_1
+Text GLabel 1700 2200 2    50   Input ~ 0
+INTB_2
+Text GLabel 1700 2300 2    50   Input ~ 0
+INTB_3
+$Comp
+L power:VCC #PWR?
+U 1 1 616D8C4C
+P 1200 2400
+F 0 "#PWR?" H 1200 2250 50  0001 C CNN
+F 1 "VCC" V 1200 2600 50  0000 C CNN
+F 2 "" H 1200 2400 50  0001 C CNN
+F 3 "" H 1200 2400 50  0001 C CNN
+	1    1200 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 616D96B0
+P 1200 1700
+F 0 "#PWR?" H 1200 1450 50  0001 C CNN
+F 1 "GND" V 1200 1500 50  0000 C CNN
+F 2 "" H 1200 1700 50  0001 C CNN
+F 3 "" H 1200 1700 50  0001 C CNN
+	1    1200 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x08_Counter_Clockwise J?
+U 1 1 616DC538
+P 1400 2000
+F 0 "J?" H 1450 2517 50  0000 C CNN
+F 1 "Conn_02x08_Counter_Clockwise" H 1450 2426 50  0000 C CNN
+F 2 "" H 1400 2000 50  0001 C CNN
+F 3 "~" H 1400 2000 50  0001 C CNN
+	1    1400 2000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
