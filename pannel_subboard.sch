@@ -1,0 +1,514 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x05 J2
+U 1 1 6185E7FD
+P 3300 2650
+F 0 "J2" H 3380 2692 50  0000 L CNN
+F 1 "Conn_01x05" H 3380 2601 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 3300 2650 50  0001 C CNN
+F 3 "~" H 3300 2650 50  0001 C CNN
+	1    3300 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0101
+U 1 1 61861F4D
+P 3100 2450
+F 0 "#PWR0101" H 3100 2300 50  0001 C CNN
+F 1 "VCC" V 3115 2577 50  0000 L CNN
+F 2 "" H 3100 2450 50  0001 C CNN
+F 3 "" H 3100 2450 50  0001 C CNN
+	1    3100 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 6186275B
+P 3100 2850
+F 0 "#PWR0102" H 3100 2600 50  0001 C CNN
+F 1 "GND" V 3105 2722 50  0000 R CNN
+F 2 "" H 3100 2850 50  0001 C CNN
+F 3 "" H 3100 2850 50  0001 C CNN
+	1    3100 2850
+	0    1    1    0   
+$EndComp
+Text GLabel 3100 2550 0    50   Input ~ 0
+SW1-A
+Text GLabel 3100 2650 0    50   Input ~ 0
+SW1-B
+Text GLabel 3100 2750 0    50   Input ~ 0
+SW1-C
+$Comp
+L Connector_Generic:Conn_01x05 J6
+U 1 1 61874D2E
+P 4550 2650
+F 0 "J6" H 4630 2692 50  0000 L CNN
+F 1 "Conn_01x05" H 4630 2601 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 4550 2650 50  0001 C CNN
+F 3 "~" H 4550 2650 50  0001 C CNN
+	1    4550 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0103
+U 1 1 61874D90
+P 4350 2450
+F 0 "#PWR0103" H 4350 2300 50  0001 C CNN
+F 1 "VCC" V 4365 2577 50  0000 L CNN
+F 2 "" H 4350 2450 50  0001 C CNN
+F 3 "" H 4350 2450 50  0001 C CNN
+	1    4350 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 61874D9A
+P 4350 2850
+F 0 "#PWR0104" H 4350 2600 50  0001 C CNN
+F 1 "GND" V 4355 2722 50  0000 R CNN
+F 2 "" H 4350 2850 50  0001 C CNN
+F 3 "" H 4350 2850 50  0001 C CNN
+	1    4350 2850
+	0    1    1    0   
+$EndComp
+Text GLabel 4350 2550 0    50   Input ~ 0
+SW2-A
+Text GLabel 4350 2650 0    50   Input ~ 0
+SW2-B
+Text GLabel 4350 2750 0    50   Input ~ 0
+SW2-C
+$Comp
+L Connector_Generic:Conn_01x05 J3
+U 1 1 618768BF
+P 3300 3350
+F 0 "J3" H 3380 3392 50  0000 L CNN
+F 1 "Conn_01x05" H 3380 3301 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 3300 3350 50  0001 C CNN
+F 3 "~" H 3300 3350 50  0001 C CNN
+	1    3300 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0105
+U 1 1 6187695D
+P 3100 3150
+F 0 "#PWR0105" H 3100 3000 50  0001 C CNN
+F 1 "VCC" V 3115 3277 50  0000 L CNN
+F 2 "" H 3100 3150 50  0001 C CNN
+F 3 "" H 3100 3150 50  0001 C CNN
+	1    3100 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 61876967
+P 3100 3550
+F 0 "#PWR0106" H 3100 3300 50  0001 C CNN
+F 1 "GND" V 3105 3422 50  0000 R CNN
+F 2 "" H 3100 3550 50  0001 C CNN
+F 3 "" H 3100 3550 50  0001 C CNN
+	1    3100 3550
+	0    1    1    0   
+$EndComp
+Text GLabel 3100 3250 0    50   Input ~ 0
+SW3-A
+Text GLabel 3100 3350 0    50   Input ~ 0
+SW3-B
+Text GLabel 3100 3450 0    50   Input ~ 0
+SW3-C
+$Comp
+L Connector_Generic:Conn_01x05 J7
+U 1 1 61876974
+P 4550 3350
+F 0 "J7" H 4630 3392 50  0000 L CNN
+F 1 "Conn_01x05" H 4630 3301 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 4550 3350 50  0001 C CNN
+F 3 "~" H 4550 3350 50  0001 C CNN
+	1    4550 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0107
+U 1 1 6187697E
+P 4350 3150
+F 0 "#PWR0107" H 4350 3000 50  0001 C CNN
+F 1 "VCC" V 4365 3277 50  0000 L CNN
+F 2 "" H 4350 3150 50  0001 C CNN
+F 3 "" H 4350 3150 50  0001 C CNN
+	1    4350 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 61876988
+P 4350 3550
+F 0 "#PWR0108" H 4350 3300 50  0001 C CNN
+F 1 "GND" V 4355 3422 50  0000 R CNN
+F 2 "" H 4350 3550 50  0001 C CNN
+F 3 "" H 4350 3550 50  0001 C CNN
+	1    4350 3550
+	0    1    1    0   
+$EndComp
+Text GLabel 4350 3250 0    50   Input ~ 0
+SW4-A
+Text GLabel 4350 3350 0    50   Input ~ 0
+SW4-B
+Text GLabel 4350 3450 0    50   Input ~ 0
+SW4-C
+$Comp
+L Connector_Generic:Conn_01x05 J4
+U 1 1 6187937F
+P 3300 4050
+F 0 "J4" H 3380 4092 50  0000 L CNN
+F 1 "Conn_01x05" H 3380 4001 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 3300 4050 50  0001 C CNN
+F 3 "~" H 3300 4050 50  0001 C CNN
+	1    3300 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0109
+U 1 1 61879495
+P 3100 3850
+F 0 "#PWR0109" H 3100 3700 50  0001 C CNN
+F 1 "VCC" V 3115 3977 50  0000 L CNN
+F 2 "" H 3100 3850 50  0001 C CNN
+F 3 "" H 3100 3850 50  0001 C CNN
+	1    3100 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 6187949F
+P 3100 4250
+F 0 "#PWR0110" H 3100 4000 50  0001 C CNN
+F 1 "GND" V 3105 4122 50  0000 R CNN
+F 2 "" H 3100 4250 50  0001 C CNN
+F 3 "" H 3100 4250 50  0001 C CNN
+	1    3100 4250
+	0    1    1    0   
+$EndComp
+Text GLabel 3100 3950 0    50   Input ~ 0
+SW5-A
+Text GLabel 3100 4050 0    50   Input ~ 0
+SW5-B
+Text GLabel 3100 4150 0    50   Input ~ 0
+SW5-C
+$Comp
+L Connector_Generic:Conn_01x05 J8
+U 1 1 618794AC
+P 4550 4050
+F 0 "J8" H 4630 4092 50  0000 L CNN
+F 1 "Conn_01x05" H 4630 4001 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 4550 4050 50  0001 C CNN
+F 3 "~" H 4550 4050 50  0001 C CNN
+	1    4550 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0111
+U 1 1 618794B6
+P 4350 3850
+F 0 "#PWR0111" H 4350 3700 50  0001 C CNN
+F 1 "VCC" V 4365 3977 50  0000 L CNN
+F 2 "" H 4350 3850 50  0001 C CNN
+F 3 "" H 4350 3850 50  0001 C CNN
+	1    4350 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 618794C0
+P 4350 4250
+F 0 "#PWR0112" H 4350 4000 50  0001 C CNN
+F 1 "GND" V 4355 4122 50  0000 R CNN
+F 2 "" H 4350 4250 50  0001 C CNN
+F 3 "" H 4350 4250 50  0001 C CNN
+	1    4350 4250
+	0    1    1    0   
+$EndComp
+Text GLabel 4350 3950 0    50   Input ~ 0
+SW6-A
+Text GLabel 4350 4050 0    50   Input ~ 0
+SW6-B
+Text GLabel 4350 4150 0    50   Input ~ 0
+SW6-C
+$Comp
+L Connector_Generic:Conn_01x05 J5
+U 1 1 618794CD
+P 3300 4750
+F 0 "J5" H 3380 4792 50  0000 L CNN
+F 1 "Conn_01x05" H 3380 4701 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 3300 4750 50  0001 C CNN
+F 3 "~" H 3300 4750 50  0001 C CNN
+	1    3300 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0113
+U 1 1 618794D7
+P 3100 4550
+F 0 "#PWR0113" H 3100 4400 50  0001 C CNN
+F 1 "VCC" V 3115 4677 50  0000 L CNN
+F 2 "" H 3100 4550 50  0001 C CNN
+F 3 "" H 3100 4550 50  0001 C CNN
+	1    3100 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 618794E1
+P 3100 4950
+F 0 "#PWR0114" H 3100 4700 50  0001 C CNN
+F 1 "GND" V 3105 4822 50  0000 R CNN
+F 2 "" H 3100 4950 50  0001 C CNN
+F 3 "" H 3100 4950 50  0001 C CNN
+	1    3100 4950
+	0    1    1    0   
+$EndComp
+Text GLabel 3100 4650 0    50   Input ~ 0
+SW7-A
+Text GLabel 3100 4750 0    50   Input ~ 0
+SW7-B
+Text GLabel 3100 4850 0    50   Input ~ 0
+SW7-C
+$Comp
+L Connector_Generic:Conn_01x05 J9
+U 1 1 618794EE
+P 4550 4750
+F 0 "J9" H 4630 4792 50  0000 L CNN
+F 1 "Conn_01x05" H 4630 4701 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 4550 4750 50  0001 C CNN
+F 3 "~" H 4550 4750 50  0001 C CNN
+	1    4550 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0115
+U 1 1 618794F8
+P 4350 4550
+F 0 "#PWR0115" H 4350 4400 50  0001 C CNN
+F 1 "VCC" V 4365 4677 50  0000 L CNN
+F 2 "" H 4350 4550 50  0001 C CNN
+F 3 "" H 4350 4550 50  0001 C CNN
+	1    4350 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 61879502
+P 4350 4950
+F 0 "#PWR0116" H 4350 4700 50  0001 C CNN
+F 1 "GND" V 4355 4822 50  0000 R CNN
+F 2 "" H 4350 4950 50  0001 C CNN
+F 3 "" H 4350 4950 50  0001 C CNN
+	1    4350 4950
+	0    1    1    0   
+$EndComp
+Text GLabel 4350 4650 0    50   Input ~ 0
+SW8-A
+Text GLabel 4350 4750 0    50   Input ~ 0
+SW8-B
+Text GLabel 4350 4850 0    50   Input ~ 0
+SW8-C
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 6187FCB8
+P 4250 1400
+F 0 "J1" H 4330 1392 50  0000 L CNN
+F 1 "Conn_01x02" H 4330 1301 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 4250 1400 50  0001 C CNN
+F 3 "~" H 4250 1400 50  0001 C CNN
+	1    4250 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0117
+U 1 1 618806DF
+P 4050 1400
+F 0 "#PWR0117" H 4050 1250 50  0001 C CNN
+F 1 "VCC" V 4065 1527 50  0000 L CNN
+F 2 "" H 4050 1400 50  0001 C CNN
+F 3 "" H 4050 1400 50  0001 C CNN
+	1    4050 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 61880E34
+P 4050 1500
+F 0 "#PWR0118" H 4050 1250 50  0001 C CNN
+F 1 "GND" V 4055 1372 50  0000 R CNN
+F 2 "" H 4050 1500 50  0001 C CNN
+F 3 "" H 4050 1500 50  0001 C CNN
+	1    4050 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x18_Odd_Even J10
+U 1 1 6189264E
+P 7650 3550
+F 0 "J10" V 7654 4230 50  0000 L CNN
+F 1 "Conn_02x14_Counter_Clockwise" V 7745 4230 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x18_Pitch2.54mm" H 7650 3550 50  0001 C CNN
+F 3 "~" H 7650 3550 50  0001 C CNN
+	1    7650 3550
+	0    1    1    0   
+$EndComp
+Text GLabel 6850 3850 3    50   Input ~ 0
+SW1-A
+Text GLabel 6950 3850 3    50   Input ~ 0
+SW1-B
+Text GLabel 7050 3850 3    50   Input ~ 0
+SW1-C
+Text GLabel 7150 3850 3    50   Input ~ 0
+SW2-A
+Text GLabel 7250 3850 3    50   Input ~ 0
+SW2-B
+Text GLabel 7350 3850 3    50   Input ~ 0
+SW2-C
+Text GLabel 7450 3850 3    50   Input ~ 0
+SW3-A
+Text GLabel 7550 3850 3    50   Input ~ 0
+SW3-B
+Text GLabel 7650 3850 3    50   Input ~ 0
+SW3-C
+Text GLabel 7750 3850 3    50   Input ~ 0
+SW4-A
+Text GLabel 7850 3850 3    50   Input ~ 0
+SW4-B
+Text GLabel 7950 3850 3    50   Input ~ 0
+SW4-C
+Text GLabel 6850 3350 1    50   Input ~ 0
+SW5-A
+Text GLabel 6950 3350 1    50   Input ~ 0
+SW5-B
+Text GLabel 7050 3350 1    50   Input ~ 0
+SW5-C
+Text GLabel 7150 3350 1    50   Input ~ 0
+SW6-A
+Text GLabel 7250 3350 1    50   Input ~ 0
+SW6-B
+Text GLabel 7350 3350 1    50   Input ~ 0
+SW6-C
+Text GLabel 7450 3350 1    50   Input ~ 0
+SW7-A
+Text GLabel 7550 3350 1    50   Input ~ 0
+SW7-B
+Text GLabel 7650 3350 1    50   Input ~ 0
+SW7-C
+Text GLabel 7750 3350 1    50   Input ~ 0
+SW8-A
+Text GLabel 7850 3350 1    50   Input ~ 0
+SW8-B
+Text GLabel 7950 3350 1    50   Input ~ 0
+SW8-C
+$Comp
+L power:VCC #PWR0119
+U 1 1 6189F6CD
+P 8450 3850
+F 0 "#PWR0119" H 8450 3700 50  0001 C CNN
+F 1 "VCC" V 8465 4023 50  0000 C CNN
+F 2 "" H 8450 3850 50  0001 C CNN
+F 3 "" H 8450 3850 50  0001 C CNN
+	1    8450 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR0121
+U 1 1 618A0929
+P 8450 3350
+F 0 "#PWR0121" H 8450 3200 50  0001 C CNN
+F 1 "VCC" V 8465 3523 50  0000 C CNN
+F 2 "" H 8450 3350 50  0001 C CNN
+F 3 "" H 8450 3350 50  0001 C CNN
+	1    8450 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 618A4B19
+P 1850 1550
+F 0 "D1" H 1843 1767 50  0000 C CNN
+F 1 "LED" H 1843 1676 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 1850 1550 50  0001 C CNN
+F 3 "~" H 1850 1550 50  0001 C CNN
+	1    1850 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 618A5692
+P 1850 1900
+F 0 "R1" V 1643 1900 50  0000 C CNN
+F 1 "R" V 1734 1900 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 1780 1900 50  0001 C CNN
+F 3 "~" H 1850 1900 50  0001 C CNN
+	1    1850 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0123
+U 1 1 618A62F0
+P 2000 1550
+F 0 "#PWR0123" H 2000 1400 50  0001 C CNN
+F 1 "VCC" V 2015 1678 50  0000 L CNN
+F 2 "" H 2000 1550 50  0001 C CNN
+F 3 "" H 2000 1550 50  0001 C CNN
+	1    2000 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 618A7111
+P 2000 1900
+F 0 "#PWR0124" H 2000 1650 50  0001 C CNN
+F 1 "GND" V 2005 1772 50  0000 R CNN
+F 2 "" H 2000 1900 50  0001 C CNN
+F 3 "" H 2000 1900 50  0001 C CNN
+	1    2000 1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 1550 1450 1550
+Wire Wire Line
+	1450 1550 1450 1900
+Wire Wire Line
+	1450 1900 1700 1900
+$Comp
+L power:GND #PWR0120
+U 1 1 618CA5AC
+P 6750 3850
+F 0 "#PWR0120" H 6750 3600 50  0001 C CNN
+F 1 "GND" V 6755 3677 50  0000 C CNN
+F 2 "" H 6750 3850 50  0001 C CNN
+F 3 "" H 6750 3850 50  0001 C CNN
+	1    6750 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0122
+U 1 1 618CABD6
+P 6750 3350
+F 0 "#PWR0122" H 6750 3100 50  0001 C CNN
+F 1 "GND" V 6755 3177 50  0000 C CNN
+F 2 "" H 6750 3350 50  0001 C CNN
+F 3 "" H 6750 3350 50  0001 C CNN
+	1    6750 3350
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
