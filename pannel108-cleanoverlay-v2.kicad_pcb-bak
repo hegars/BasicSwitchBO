@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerberpannel/"))
+      (outputdirectory "gerberpannelv2-clean/"))
   )
 
   (net 0 "")
@@ -352,7 +352,7 @@
   (gr_line (start 50.8 95.935) (end 177.165 95.935) (layer Dwgs.User) (width 0.15))
   (gr_line (start 63.5 149.91) (end 171.45 41.96) (layer Dwgs.User) (width 0.15))
   (gr_line (start 63.5 41.96) (end 171.45 149.91) (layer Dwgs.User) (width 0.15))
-  (gr_text "108mm x 180mm Panel\nuse 25mills (0.6350mm)" (at 118.745 141.02) (layer F.SilkS)
+  (gr_text "108mm x 108mm Panel\nuse 25mills (0.6350mm)" (at 118.745 141.02) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.2)))
   )
   (gr_line (start 64.135 149.275) (end 64.135 42.595) (layer F.SilkS) (width 0.15) (tstamp 61862797))
