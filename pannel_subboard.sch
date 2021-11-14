@@ -823,4 +823,113 @@ Text GLabel 3200 5250 0    50   Input ~ 0
 SW8-B
 Text GLabel 3200 5350 0    50   Input ~ 0
 SW8-C
+$Comp
+L Device:R R?
+U 1 1 618725A2
+P 1200 6600
+F 0 "R?" H 1270 6646 50  0000 L CNN
+F 1 "R" H 1270 6555 50  0000 L CNN
+F 2 "" V 1130 6600 50  0001 C CNN
+F 3 "~" H 1200 6600 50  0001 C CNN
+	1    1200 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61874002
+P 2150 6600
+F 0 "C?" H 2265 6646 50  0000 L CNN
+F 1 "C" H 2265 6555 50  0000 L CNN
+F 2 "" H 2188 6450 50  0001 C CNN
+F 3 "~" H 2150 6600 50  0001 C CNN
+	1    2150 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DPST SW?
+U 1 1 618764A4
+P 1700 6950
+F 0 "SW?" H 1700 7275 50  0000 C CNN
+F 1 "SW_DPST" H 1700 7184 50  0000 C CNN
+F 2 "" H 1700 6950 50  0001 C CNN
+F 3 "~" H 1700 6950 50  0001 C CNN
+	1    1700 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61877420
+P 2150 7300
+F 0 "#PWR?" H 2150 7050 50  0001 C CNN
+F 1 "GND" V 2155 7172 50  0000 R CNN
+F 2 "" H 2150 7300 50  0001 C CNN
+F 3 "" H 2150 7300 50  0001 C CNN
+	1    2150 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 6187796B
+P 1200 7350
+F 0 "#PWR?" H 1200 7200 50  0001 C CNN
+F 1 "VCC" V 1215 7477 50  0000 L CNN
+F 2 "" H 1200 7350 50  0001 C CNN
+F 3 "" H 1200 7350 50  0001 C CNN
+	1    1200 7350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618762FB
+P 1200 7200
+F 0 "R?" H 1270 7246 50  0000 L CNN
+F 1 "R" H 1270 7155 50  0000 L CNN
+F 2 "" V 1130 7200 50  0001 C CNN
+F 3 "~" H 1200 7200 50  0001 C CNN
+	1    1200 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 7050 1200 6850
+Wire Wire Line
+	2150 6850 1900 6850
+Wire Wire Line
+	2150 6750 2150 6850
+Wire Wire Line
+	2150 6850 2150 7300
+Connection ~ 2150 6850
+Wire Wire Line
+	1900 7050 1900 7250
+Wire Wire Line
+	1500 7050 1500 7250
+Wire Wire Line
+	1200 6850 1200 6750
+Connection ~ 1200 6850
+Wire Wire Line
+	1200 6350 1200 6450
+Wire Wire Line
+	2150 6350 2150 6450
+Text GLabel 1650 6250 1    50   Input ~ 0
+OUT
+Wire Wire Line
+	1500 6850 1200 6850
+Wire Wire Line
+	1200 6350 1650 6350
+Wire Wire Line
+	1500 7050 1500 6850
+Connection ~ 1500 7050
+Connection ~ 1500 6850
+Wire Wire Line
+	1900 7050 1900 6850
+Connection ~ 1900 7050
+Connection ~ 1900 6850
+Text GLabel 1500 7250 3    50   Input ~ 0
+EXT_A
+Text GLabel 1900 7250 3    50   Input ~ 0
+EXT_B
+Wire Wire Line
+	1650 6250 1650 6350
+Connection ~ 1650 6350
+Wire Wire Line
+	1650 6350 2150 6350
 $EndSCHEMATC
